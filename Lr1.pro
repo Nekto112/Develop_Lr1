@@ -4,8 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        game.cpp \
         lobby.cpp \
-        main.cpp
+        main.cpp \
+        nokgame.cpp
 
 HEADERS += \
-    lobby.h
+    game.h \
+    lobby.h \
+    nokgame.h

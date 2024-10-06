@@ -1,9 +1,11 @@
 #include <iostream>
+#include "lobby.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    Lobby* lobby = new Lobby();
+    lobby->hello();
     return 0;
 }
