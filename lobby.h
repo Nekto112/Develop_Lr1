@@ -2,6 +2,7 @@
 #define LOBBY_H
 
 #include <iostream>
+#include "nokgame.h"
 
 class Lobby
 {   
@@ -13,9 +14,7 @@ public:
     Lobby();
 
     void hello();
-
-
-    void start_game();
+    void play_game();
 };
 
 #endif // LOBBY_H

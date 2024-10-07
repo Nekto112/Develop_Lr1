@@ -12,6 +12,8 @@ protected:
 public:
 
     virtual void generate() = 0;
+    void play();
+
     bool check_answer(int p_answer);
 };
 

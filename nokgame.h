@@ -1,8 +1,10 @@
 #ifndef NOKGAME_H
 #define NOKGAME_H
 #include <numeric>
+#include <random>
 
 #include "game.h"
+
 
 
 class NOKGame : public Game

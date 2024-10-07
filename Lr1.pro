@@ -7,9 +7,11 @@ SOURCES += \
         game.cpp \
         lobby.cpp \
         main.cpp \
-        nokgame.cpp
+        nokgame.cpp \
+        util.cpp
 
 HEADERS += \
     game.h \
     lobby.h \
-    nokgame.h
+    nokgame.h \
+    util.h
