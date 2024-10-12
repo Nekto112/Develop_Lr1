@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "nokgame.h"
+#include "progressivegame.h"
 
 class Lobby
 {   
@@ -15,6 +16,7 @@ public:
 
     void hello();
     void play_game();
+    Game *game_selector();
 };
 
 #endif // LOBBY_H
