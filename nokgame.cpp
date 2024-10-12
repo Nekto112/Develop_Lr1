@@ -4,7 +4,7 @@
 
 NOKGame::NOKGame()
 {
-
+    std::cout << "Find the smallest common multiple of given numbers.\n";
 }
 
 void NOKGame::generate()

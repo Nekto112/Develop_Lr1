@@ -10,6 +10,7 @@ void Game::play()
 {
     generate();
     int p_answer;
+    std::cout << "Your answer: ";
     std::cin >> p_answer;
     check_answer(p_answer);
 }
