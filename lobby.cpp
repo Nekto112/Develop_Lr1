@@ -15,11 +15,13 @@ void Lobby::hello()
 
 void Lobby::play_game()
 {
-    Game* game = game_selector();
     while(true){
-        game->play();
-    }
+        Game* game = game_selector();
+        for(int i = 0; i < 3; ++i){
+            game->play();
+        }
 
+    }
 }
 
 Game *Lobby::game_selector()
